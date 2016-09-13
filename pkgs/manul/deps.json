@@ -1,0 +1,74 @@
+[
+  {
+    "goPackagePath": "github.com/PuerkitoBio/goquery",
+    "fetch": {
+      "type": "git",
+      "url": "https://github.com/PuerkitoBio/goquery",
+      "rev": "9043fe2599aa764f74ab233cf2fa983072a419cd",
+      "sha256": "1lnxy33vn1zy9bkzisa4xnmjf763c56chpl2rhhimpw08pim0kk5"
+    }
+  },
+  {
+    "goPackagePath": "github.com/andybalholm/cascadia",
+    "fetch": {
+      "type": "git",
+      "url": "https://github.com/andybalholm/cascadia",
+      "rev": "1c31af6f6c1a7b101ed05aacc7d8a738b43ae86e",
+      "sha256": "161ij37wvd8mcr093cf3mrjp3wpm5j36yzksmgs73sz9m9pniq8v"
+    }
+  },
+  {
+    "goPackagePath": "github.com/kovetskiy/executil",
+    "fetch": {
+      "type": "git",
+      "url": "https://github.com/kovetskiy/executil",
+      "rev": "a0b26a6cff44f7164f940ef853518d96f558a0e4",
+      "sha256": "1xndpm9bi2mj5nvqxs8bi063qg544hn8g0br5c94kgwasfr2n5p9"
+    }
+  },
+  {
+    "goPackagePath": "github.com/kovetskiy/godocs",
+    "fetch": {
+      "type": "git",
+      "url": "https://github.com/kovetskiy/godocs",
+      "rev": "2d9428f80f3442e07f67daf7ba378cd0ff6cfe24",
+      "sha256": "128dlvxqk31crzl9p3ps0nir724cjzxv4lxpgdvsir0wvfp8f83j"
+    }
+  },
+  {
+    "goPackagePath": "github.com/reconquest/hierr-go",
+    "fetch": {
+      "type": "git",
+      "url": "https://github.com/reconquest/hierr-go",
+      "rev": "6fb1649761cbe3c93119e7b948aee59045eed825",
+      "sha256": "06izchdj4rh2q109azprnzq01cr6yalq6vcz07y3n0wyi4ihmwrm"
+    }
+  },
+  {
+    "goPackagePath": "github.com/reconquest/ser-go",
+    "fetch": {
+      "type": "git",
+      "url": "https://github.com/reconquest/ser-go",
+      "rev": "7a9363ea19d211fa59f378dadb158b36a45aa26d",
+      "sha256": "0f1qqr52k5fiwywv1i9rxkdf1bv7zyd2a7wz58kkcaidk6z5bfgi"
+    }
+  },
+  {
+    "goPackagePath": "golang.org/x/crypto",
+    "fetch": {
+      "type": "git",
+      "url": "https://go.googlesource.com/crypto",
+      "rev": "055d4bfb5c396e3c3dcd9aad97c9086d48b23189",
+      "sha256": "0flzjvgip5kzxsgkar8rnvw24174hlh3jfdakm7ydqp9gw9hcnvs"
+    }
+  },
+  {
+    "goPackagePath": "golang.org/x/net",
+    "fetch": {
+      "type": "git",
+      "url": "https://go.googlesource.com/net",
+      "rev": "9bc2a3340c92c17a20edcd0080e93851ed58f5d5",
+      "sha256": "0l139n3hm3vnkg83blcyh2w3hzfini7yaw7m3w87zr961kr9y084"
+    }
+  }
+]

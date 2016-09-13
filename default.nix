@@ -9,10 +9,10 @@ let
 
   self = {
     ddnet = callPackage ./pkgs/ddnet { };
-
     goswagger = callPackage ./pkgs/goswagger { };
-
     micro = callPackage ./pkgs/micro { };
+    gometalinter = callPackage ./pkgs/gometalinter { };
+    manul = callPackage ./pkgs/manul { };
   };
 in
 self
