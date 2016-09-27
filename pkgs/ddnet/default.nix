@@ -4,14 +4,14 @@
 
 stdenv.mkDerivation rec {
   name = "ddnet-${version}";
-  version = "10.3";
+  version = "10.3.1";
   rev = "${version}";
 
   src = fetchFromGitHub {
     inherit rev;
     owner = "ddnet";
     repo = "ddnet";
-    sha256 = "1n78iwd3p7cjlhmpd92h05j1y910lcxqn8k7abl10qp900wapf5j";
+    sha256 = "01wznf0il9z7df3m1djb5qnszc868bsl8s760ay7xrdnpxq671sc";
   };
 
   patches = [

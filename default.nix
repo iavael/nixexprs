@@ -13,6 +13,7 @@ let
     micro = callPackage ./pkgs/micro { };
     gometalinter = callPackage ./pkgs/gometalinter { };
     manul = callPackage ./pkgs/manul { };
+    lego = callPackage ./pkgs/lego { };
   };
 in
 self
