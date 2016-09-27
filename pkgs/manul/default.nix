@@ -2,8 +2,8 @@
 
 buildGoPackage rec {
   name = "manul-${version}";
-  version = "20160827-${stdenv.lib.strings.substring 0 7 rev}";
-  rev = "1d55759616aa5461e542636fd5755a0cb25dbbb0";
+  version = "20160926-${stdenv.lib.strings.substring 0 7 rev}";
+  rev = "5d10370db6d1bdf683ccd5bf737d35c6cf18baf7";
 
   goPackagePath = "github.com/kovetskiy/manul";
 
@@ -11,8 +11,12 @@ buildGoPackage rec {
     inherit rev;
     owner = "kovetskiy";
     repo = "manul";
-    sha256 = "1f21226afqq8baz8jf1qg13ay89sllqx27p5flpy6yvd160ik7lk";
+    sha256 = "0jkhp3lr5dx32b2qjp0pgrg7di03zwvk37ygmnxkj1avjhxvsq48";
   };
 
-  goDeps = ./deps.json;
+  goDeps = ./deps.nix;
+
+  # TODO: add metadata https://nixos.org/nixpkgs/manual/#sec-standard-meta-attributes
+  meta = {
+  };
 }
